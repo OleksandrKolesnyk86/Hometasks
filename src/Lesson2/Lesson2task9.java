@@ -1,11 +1,13 @@
+package Lesson2;
+
 public class Lesson2task9 {
     public static void main(String[] args) {
-        int husband_age = 34;
-        int wife_age = 32;
-        if (husband_age >= 35 && wife_age >= 35){
+        int husbandAge = 34;
+        int wifeAge = 32;
+        if (husbandAge >= 35 && wifeAge >= 35) {
             System.out.println("False");
-        }
-        else{System.out.println("True");
+        } else {
+            System.out.println("True");
         }
     }
 }

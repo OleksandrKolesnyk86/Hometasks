@@ -1,8 +1,10 @@
+package Lesson2;
+
 public class Lesson2task10 {
-    public static void main(String[] args){
-        int family_income = 30000;
-        if (family_income<=50000 && family_income>=20000){
-        System.out.println("True");
+    public static void main(String[] args) {
+        int familyIncome = 30000;
+        if (familyIncome <= 50000 && familyIncome >= 20000) {
+            System.out.println("True");
         }
     }
 }

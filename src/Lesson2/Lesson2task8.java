@@ -1,10 +1,12 @@
+package Lesson2;
+
 public class Lesson2task8 {
-    public static void main(String [] args){
-        double total_test = 20;
-        double marked_test = 15;
-        double results = marked_test/total_test*100;
+    public static void main(String[] args) {
+        double totalTest = 20;
+        double markedTest = 15;
+        double results = markedTest / totalTest * 100;
         System.out.println("Result is " + results + "%");
-            }
+    }
 }
 /*8. Given a mark on a test and the test total, find the percentage
         Example:

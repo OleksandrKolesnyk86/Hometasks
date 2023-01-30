@@ -1,8 +1,10 @@
+package Lesson2;
+
 public class Lesson2task11 {
-    public static void main(String[] args){
-        int apple_sort1=5;
-        int apple_sort2=10;
-        if (apple_sort1>0||apple_sort2>0){
+    public static void main(String[] args) {
+        int appleSort1 = 5;
+        int appleSort2 = 10;
+        if (appleSort1 > 0 || appleSort2 > 0) {
             System.out.println("True");
         }
     }
