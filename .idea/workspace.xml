@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8dc1e29-082e-4bdb-9cf5-8170b9bb51c7" name="Changes" comment="Hometasks from Lesson3">
+      <change afterPath="$PROJECT_DIR$/src/Lesson4/Task1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson3/AdvancedTask5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson3/AdvancedTask5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,7 +62,7 @@
       <recent name="Lesson3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AdvancedTask5">
+  <component name="RunManager" selected="Application.Task1">
     <configuration name="AdvancedTask5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson3.AdvancedTask5" />
       <module name="Hometasks" />
@@ -90,6 +93,19 @@
     <configuration name="Lesson2task9" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2.Lesson2task9" />
       <module name="Hometasks" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson4.Task1" />
+      <module name="Hometasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,26 +149,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson3.Task8" />
-      <module name="Hometasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task1" />
         <item itemvalue="Application.AdvancedTask5" />
         <item itemvalue="Application.Task3PrintNumberInWord" />
         <item itemvalue="Application.Task4PrintDayInWord" />
         <item itemvalue="Application.Task6" />
-        <item itemvalue="Application.Task8" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675797850032</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Hometasks from Lesson3">
+      <created>1675799708772</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675799708772</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
