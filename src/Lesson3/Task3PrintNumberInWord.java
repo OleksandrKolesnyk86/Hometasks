@@ -2,35 +2,35 @@ package Lesson3;
 
 public class Task3PrintNumberInWord {
     public static void main(String[] args) {
-        int num = 1;
+        int num = 7;
         switch (num) {
             case 1:
                 System.out.println("ONE");
-                num++;
+                break;
             case 2:
                 System.out.println("TWO");
-                num++;
+                break;
             case 3:
                 System.out.println("THREE");
-                num++;
+                break;
             case 4:
                 System.out.println("Four");
-                num++;
+                break;
             case 5:
                 System.out.println("FIVE");
-                num++;
+                break;
             case 6:
                 System.out.println("SIX");
-                num++;
+                break;
             case 7:
                 System.out.println("SEVEN");
-                num++;
+                break;
             case 8:
                 System.out.println("Eight");
-                num++;
+                break;
             case 9:
                 System.out.println("NINE");
-                num++;
+                break;
             default:
                 System.out.println("OTHER");
         }

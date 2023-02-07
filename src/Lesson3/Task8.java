@@ -7,11 +7,11 @@ public class Task8 {
         Scanner a = new Scanner(System.in);
         System.out.println("Введите количество совершенных Вами продаж");
         int salesQuantity = a.nextInt();
-        int S = 10 - salesQuantity;
+        int s = 10 - salesQuantity;
         if (salesQuantity > 10) {
             System.out.println("Вы заработали бонус");
         } else {
-            System.out.println("Чтобы получить бонус Вам осталось совершить " + S + " продаж");
+            System.out.println("Чтобы получить бонус Вам осталось совершить " + s + " продаж");
         }
     }
 }

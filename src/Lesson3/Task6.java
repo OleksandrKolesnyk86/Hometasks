@@ -2,13 +2,13 @@ package Lesson3;
 
 public class Task6 {
     public static void main(String[] args) {
-        float a = 20;
-        float b = 0;
+        float a = 0;
+        float b = 1;
         //int x = -b / a;
-        if (a == 0 || b == 0){
+        if (a == 0 || b == 0) {
             System.out.println("Переменные не могут иметь нулевое значение");
-        } else if (a != 0 && b != 0) {
-            System.out.println("x = "+(-b/a));
+        } else {
+            System.out.println("x = " + (-b / a));
         }
     }
 }
