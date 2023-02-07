@@ -38,6 +38,27 @@ public class AdvancedTask5 {
         } else if (firstNum > thirdNum && secondNum > thirdNum) {
             System.out.println("Третье число самое маленькое");
         }
+        if (firstNum == secondNum && firstNum == thirdNum) {
+            System.out.println("Все числа одинаковые");
+        }
+        if (firstNum == secondNum && firstNum < thirdNum) {
+            System.out.println("Первые два числа одинаковые, а третье число самое большое");
+        }
+        if (firstNum == thirdNum && firstNum < secondNum) {
+            System.out.println("Первое и третье число одинаковые");
+        }
+        if (firstNum > secondNum && secondNum == thirdNum) {
+            System.out.println("Второе и третье числа одинаковые");
+        }
+        if (firstNum > secondNum && firstNum == thirdNum) {
+            System.out.println("Первое и третье числа одинаковые");
+        }
+        if (firstNum == secondNum && firstNum > thirdNum) {
+            System.out.println("Первое и второе числа одинаковые");
+        }
+        if (firstNum < secondNum && secondNum == thirdNum) {
+            System.out.println("Второе и третье числа одинаковые");
+        }
     }
 }
 //5.Даны три различных числа. Определить, какое из них (первое, второе или третье) -
