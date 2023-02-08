@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8dc1e29-082e-4bdb-9cf5-8170b9bb51c7" name="Changes" comment="Hometasks from Lesson3">
-      <change afterPath="$PROJECT_DIR$/src/Lesson4/Task1.java" afterDir="false" />
+    <list default="true" id="d8dc1e29-082e-4bdb-9cf5-8170b9bb51c7" name="Changes" comment="Hometasks from Lesson4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson4/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson4/Task1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675799708772</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Hometasks from Lesson4">
+      <created>1675804256121</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1675804256121</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,6 +270,7 @@
     <MESSAGE value="Lesson2task123.java" />
     <MESSAGE value="Hometasks from Lesson2" />
     <MESSAGE value="Hometasks from Lesson3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hometasks from Lesson3" />
+    <MESSAGE value="Hometasks from Lesson4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hometasks from Lesson4" />
   </component>
 </project>
