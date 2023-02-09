@@ -2,11 +2,11 @@ package Lesson4;
 
 public class Task2 {
     public static void main(String[] args) {
-        int[] degrees = new int[360];
-        for (int i = 1; i <= degrees.length - 1; i++) {
-            degrees[i] = i;
+        int[] degree = new int[360];
+        for (int i = 1; i <= degree.length - 1; i++) {
+            degree[i] = i;
         }
-        for (int a = 10; a <= degrees.length + 1; a = a + 10) {
+        for (int a = 10; a <= degree.length + 1; a = a + 10) {
             System.out.println("Синус " + a + " градусов = " + Math.sin(a));
         }
     }
