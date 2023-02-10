@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d8dc1e29-082e-4bdb-9cf5-8170b9bb51c7" name="Changes" comment="Hometasks from Lesson4">
       <change afterPath="$PROJECT_DIR$/src/Lesson4/Task4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson4/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson4/Task2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,7 @@
       <recent name="Lesson3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task3">
+  <component name="RunManager" selected="Application.Task2">
     <configuration name="AdvancedTask5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson3.AdvancedTask5" />
       <module name="Hometasks" />
@@ -135,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3PrintNumberInWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson3.Task3PrintNumberInWord" />
+    <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson4.Task4" />
       <module name="Hometasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson3.*" />
+          <option name="PATTERN" value="Lesson4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task3" />
         <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.Task4" />
+        <item itemvalue="Application.Task3" />
         <item itemvalue="Application.Task1" />
         <item itemvalue="Application.AdvancedTask5" />
-        <item itemvalue="Application.Task3PrintNumberInWord" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675971873014</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Hometasks from Lesson4">
+      <created>1675972522579</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1675972522579</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -313,23 +322,5 @@
     <MESSAGE value="Hometasks from Lesson3" />
     <MESSAGE value="Hometasks from Lesson4" />
     <option name="LAST_COMMIT_MESSAGE" value="Hometasks from Lesson4" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Lesson4/Task2.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="args" />
-        <watch expression="args" />
-        <watch expression="args" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
