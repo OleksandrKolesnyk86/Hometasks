@@ -10,7 +10,6 @@ public class Task3 {
         for (int i = 0; i <= array.length - 1; i++) {
             array[i] = rnd.nextInt(20);
         }
-        // boolean a = false;
         for (int a = 0; a < array.length; a++) {
             for (int b = array.length - 1; b > a; b--) {
                 if (array[b - 1] > array[b]) {
