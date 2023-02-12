@@ -47,7 +47,7 @@ public class DiceGame2 {
         int fifth = scanner.nextInt();
         int fifthDie = rnd.nextInt(6) + 1;
         System.out.println("Вам выпало число " + fifthDie);
-        int position5 = position4  + fifthDie;
+        int position5 = position4 + fifthDie;
         if (position5 == 20) {
             System.out.println("Вы победили, так как достигли конца игрового поля");
         } else if (position5 > 20) {
