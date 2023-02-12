@@ -2,7 +2,7 @@ package Lesson4;
 
 import java.util.Random;
 
-public class Dice3 {
+public class DiceGame3 {
     public static void main(String[] args) {
         Random rnd = new Random();
         int finish = 20;
