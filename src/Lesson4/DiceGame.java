@@ -10,17 +10,18 @@ public class DiceGame {
             die[i] = rnd.nextInt(6) + 1;
         }
         int a = 0;
-        for (int i = 0; i < die.length; i++) {
-            a = a + die[i];
-            System.out.println("Ваше число " + die[i]);
+        for (int j : die) {
+            a = a + j;
+            System.out.println("Ваше число " + j);
             if (a == 20) {
                 System.out.println("Игра окончена, Вы выиграли!");
                 break;
             } else if (a > 20) {
                 System.out.println("Игра окончена, Вы проиграли, потому что вышли за пределы игрового поля.");
                 break;
-            } System.out.println("Вы находитесь на " + a + " позиции поля." +
-                    " \n Чтобы выиграть Вам осталось пройти " + (20 - a) + " позиций");
+            }
+            System.out.println("Вы находитесь на " + a + " позиции поля." +
+                    " \nЧтобы выиграть Вам осталось пройти " + (20 - a) + " позиций");
         }
         if (a < 20) {
             System.out.println("Игра окончена, Вы проиграли, потому что не дошли до конца игрового поля.");
