@@ -7,7 +7,8 @@ public class DiceGame2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random rnd = new Random();
-        System.out.println("Игра Кости.\nВам необходимо пройти ровно двадцать позиций игрового поля. У вас есть 5 бросков." +
+        System.out.println("Игра Кости.\nВам необходимо пройти ровно двадцать позиций игрового поля." +
+                " У вас есть 5 бросков." +
                 "\nНачнем игру!\nУдачи Вам!\n" +
                 "Чтобы сделать первый бросок введите 1 и нажмите Enter");
         int first = scanner.nextInt();
