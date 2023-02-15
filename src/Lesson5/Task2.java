@@ -15,8 +15,9 @@ public class Task2 {
         int salesQuantity = scn.nextInt();
         System.out.println("Введите сумму совершенных Вами продаж");
         double salesSum = scn.nextDouble();
-        System.out.println("Ваша зарплата " + ((salaryHours(hours, rate) + ((experienceHours(workExperience) * 160
-                * rate)) + bonusSalesQuantity(salesQuantity) + bonusSalesSum(salesSum))));
+        double totalSalary  = (salaryHours(hours, rate) + ((experienceHours(workExperience) * 160
+                * rate)) + bonusSalesQuantity(salesQuantity) + bonusSalesSum(salesSum));
+        System.out.println("Ваша зарплата " + totalSalary);
     }
 
     static double salaryHours(int hours, double rate) {
