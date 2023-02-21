@@ -1,4 +1,6 @@
-class salaryCalculation {
+package Lesson6;
+
+public class Task1SalaryCalculation {
     public static void main(String[] args) {
 
         SalesAgentSalary a = new SalesAgentSalary(180, 40);
@@ -14,13 +16,12 @@ class SalesAgentSalary {
     private int workExperience;
     private int salesQuantity;
     private double salesSum;
-    private double salaryProbation = salaryHours(hours, rate);
-    private double salaryAfterProbation = (salaryHours(hours, rate) + ((experienceHours(workExperience) * 160
-            * rate)) + bonusSalesQuantity(salesQuantity) + bonusSalesSum(salesSum));;
+    private double salary;
 
     SalesAgentSalary(int hours, double rate) {
         this.hours = hours;
         this.rate = rate;
+        setSalary(hours, rate);
     }
 
     SalesAgentSalary(int hours, double rate, int workExperience, int salesQuantity, double salesSum) {
@@ -29,24 +30,23 @@ class SalesAgentSalary {
         this.workExperience = workExperience;
         this.salesQuantity = salesQuantity;
         this.salesSum = salesSum;
+        setSalary(hours, rate, workExperience, salesQuantity, salesSum);
     }
 
-    void setSalary(double salaryAfterProbation) {
-         this.salaryAfterProbation = salaryAfterProbation;
-    }
-    void setSalary1(double salaryProbation) {
-        this.salaryProbation = salaryHours(hours, rate);
+    private void setSalary(int hours, double rate) {
+        salary = salaryHours(hours, rate);
     }
 
-    double getSalary(double salaryProbation) {
-        return this.salaryProbation;
+    private void setSalary(int hours, double rate, int workExperience, int salesQuantity, double salesSum) {
+        salary = (salaryHours(hours, rate) + ((experienceHours(workExperience) * 160
+                * rate)) + bonusSalesQuantity(salesQuantity) + bonusSalesSum(salesSum));
     }
 
-    double getSalary() {
-        return this.salaryAfterProbation;
+    public double getSalary() {
+        return salary;
     }
 
-    double salaryHours(int hours, double rate) {
+    private double salaryHours(int hours, double rate) {
         if (hours <= 160) {
             return rate * 160;
         } else {
@@ -54,7 +54,7 @@ class SalesAgentSalary {
         }
     }
 
-    double experienceHours(int workExperience) {
+    private double experienceHours(int workExperience) {
         if (workExperience < 2) {
             return 1;
         } else if (workExperience >= 2 && workExperience < 4) {
@@ -66,8 +66,7 @@ class SalesAgentSalary {
         }
     }
 
-
-    double bonusSalesQuantity(int salesQuantity) {
+    private double bonusSalesQuantity(int salesQuantity) {
         if (salesQuantity < 10) {
             return -150;
         } else if (salesQuantity > 20) {
@@ -75,7 +74,7 @@ class SalesAgentSalary {
         } else return 0;
     }
 
-    double bonusSalesSum(double salesSum) {
+    private double bonusSalesSum(double salesSum) {
         if (salesSum > 15000) {
             return 250;
         } else return 0;
@@ -117,3 +116,4 @@ double бонус за сумму продаж)
 Создать класс SalaryCalculation.
 В нем создать метод main, в методе main 2 ссылки на объект SalesAgentSalary c
 разными конструкторами вывести в консоль результат*/
+
