@@ -1,12 +1,11 @@
 package Lesson6;
 
-public class Task2 {
+public class Task2PhoneBill {
     public static void main(String[] args) {
         PhoneBill a = new PhoneBill(9, 300, 40, 10, 10);
         System.out.println("Total phone bill is " + a.getPhoneBill());
     }
 }
-
 
 class PhoneBill {
     private int gigabytes;
@@ -96,3 +95,4 @@ class PhoneBill {
 4. Звонки за рубеж зона 1 1.5 грн/мин
 5. Звонки за рубеж зона 2 2 грн/мин
 После подсчёта суммы добавляется налог 7 %*/
+
