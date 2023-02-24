@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8dc1e29-082e-4bdb-9cf5-8170b9bb51c7" name="Changes" comment="Hometasks from Lesson4">
-      <change afterPath="$PROJECT_DIR$/src/Lesson8/Task3SmartphoneTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson8/Task2TasteTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson8/Task2TasteTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
       <recent name="Lesson3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task3SmartphoneTester">
+  <component name="RunManager" selected="Application.Task2TasteTester">
     <configuration name="Lesson2task123" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2.Lesson2task123" />
       <module name="Hometasks" />
@@ -156,9 +156,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task2TasteTester" />
         <item itemvalue="Application.Task3SmartphoneTester" />
         <item itemvalue="Application.Task3SmartphoneTester (1)" />
-        <item itemvalue="Application.Task2TasteTester" />
         <item itemvalue="Application.Task1JuiceMarket" />
         <item itemvalue="Application.Task2PhoneBill" />
       </list>
@@ -453,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677100487563</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Hometasks from Lesson4">
+      <created>1677187152551</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1677187152551</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

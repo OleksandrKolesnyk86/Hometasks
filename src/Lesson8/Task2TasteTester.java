@@ -2,10 +2,10 @@ package Lesson8;
 
 public class Task2TasteTester {
     public static void main(String[] args) {
-        BirthdayCake a = new BirthdayCake(10, "Сливочный торт", 120.5);
-        System.out.println(a.getTaste() + ", " + a.getCandles() + " свечей, " + "цена " + a.getPrice());
-        WeddingCake b = new WeddingCake(5, "Йогуртовый торт", 200.8);
-        System.out.println(b.getTaste() + ", " + b.getTiers() + " ярусов, " + "цена " + b.getPrice());
+        BirthdayCake a = new BirthdayCake(10);
+        System.out.println(a.getCandles());
+        WeddingCake b = new WeddingCake(5);
+        System.out.println(b.getTiers());
     }
 }
 
@@ -32,16 +32,9 @@ class Cake {
 
 class BirthdayCake extends Cake {
     int candles;
-    String taste;
-    Double price;
 
-    BirthdayCake(int candles, String taste, Double price) {
-        this.candles = candles;
-        this.taste = taste;
-        this.price = price;
-        setTaste(this.taste);
-        setPrice(this.price);
-        setCandles(this.candles);
+    BirthdayCake(int candles) {
+        setCandles(candles);
     }
 
     void setCandles(int candles) {
@@ -55,16 +48,9 @@ class BirthdayCake extends Cake {
 
 class WeddingCake extends Cake {
     int tiers;
-    String taste;
-    Double price;
 
-    WeddingCake(int tiers, String taste, Double price) {
-        this.tiers = tiers;
-        this.taste = taste;
-        this.price = price;
-        setTaste(this.taste);
-        setPrice(this.price);
-        setTiers(this.tiers);
+    WeddingCake(int tiers) {
+        setTiers(tiers);
     }
 
     void setTiers(int tiers) {
