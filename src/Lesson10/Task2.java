@@ -13,11 +13,12 @@ public class Task2 {
         newBooks.add(new Book(1200, "Book4", "hard", 1070));
         newBooks.add(new Book(1220, "Book5", "soft", 1040));
         try {
-            Book first = newBooks.get(5);
+            Book first = newBooks.get(1);
             System.out.println(first.getTitle());
         } catch (IndexOutOfBoundsException indexOutOfBoundsException) {
             System.out.println("Error, this element does not exist");
         }
+        System.out.println();
     }
 }
 /*В класса main cоздать ArrayList - потом наполнить его 5 элементами Book из

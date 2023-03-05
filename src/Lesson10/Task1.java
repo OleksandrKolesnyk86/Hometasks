@@ -23,8 +23,8 @@ public class Task1 {
 
     static void getSum(double... nums) {
         double sum = 0;
-        for (int i = 0; i < nums.length; i++) {
-            sum += nums[i];
+        for (double num : nums) {
+            sum += num;
         }
         System.out.println("The sum is " + sum);
     }
