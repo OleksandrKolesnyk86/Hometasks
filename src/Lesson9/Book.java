@@ -6,7 +6,7 @@ public class Book {
     private String coverType;
     private int quantityOfPages;
 
-    Book(double prise, String title, String coverType, int quantityOfPages) {
+    public Book(double prise, String title, String coverType, int quantityOfPages) {
         this.prise = prise;
         this.title = title;
         this.coverType = coverType;
