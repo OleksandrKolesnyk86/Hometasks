@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8dc1e29-082e-4bdb-9cf5-8170b9bb51c7" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/Lesson11/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson11/Task2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,9 +72,22 @@
       <recent name="Lesson3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lesson11.Task1">
+  <component name="RunManager" selected="Application.Lesson11.Task2">
     <configuration name="Lesson11.Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson11.Task1" />
+      <module name="Hometasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson11.Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson11.Task2" />
       <module name="Hometasks" />
       <extension name="coverage">
         <pattern>
@@ -133,19 +146,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2GradeBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson9.Task2GradeBook" />
-      <module name="Hometasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Task2TasteTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson8.Task2TasteTester" />
       <module name="Hometasks" />
@@ -161,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson11.Task2" />
         <item itemvalue="Application.Lesson11.Task1" />
         <item itemvalue="Application.Task1" />
         <item itemvalue="Application.Task2" />
         <item itemvalue="Application.Task2TasteTester" />
-        <item itemvalue="Application.Task2GradeBook" />
       </list>
     </recent_temporary>
   </component>
@@ -493,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678029748438</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="test">
+      <created>1678134834268</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1678134834268</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -512,7 +519,8 @@
     <MESSAGE value="Hometasks from Lesson2" />
     <MESSAGE value="Hometasks from Lesson3" />
     <MESSAGE value="Hometasks from Lesson4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hometasks from Lesson4" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
