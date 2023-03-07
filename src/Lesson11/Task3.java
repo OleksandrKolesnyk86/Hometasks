@@ -7,11 +7,11 @@ public class Task3 {
     }
 
     public static String repeatRepeatRepeat(String inputString) {
-        String a = inputString.substring(0,3);
-        String newString = a+a+a;
-        if (inputString.length()>3){
+        String a = inputString.substring(0, 3);
+        String newString = a + a + a;
+        if (inputString.length() > 3) {
             return newString;
-        }else {
+        } else {
             return inputString;
         }
     }
