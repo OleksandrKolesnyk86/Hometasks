@@ -2,11 +2,11 @@ package Lesson11;
 
 public class Task5BallTester {
     public static void main(String[] args) {
-        System.out.println(Ball.FIRSTBALL.toString());
-        System.out.println(Ball.SECONDBALL.toString());
-        System.out.println(Ball.THIRDBALL.toString());
-        System.out.println(Ball.FOURTHBALL.toString());
-        System.out.println(Ball.FIFTHBALL.toString());
+        System.out.println(Ball.FIRSTBALL);
+        System.out.println(Ball.SECONDBALL);
+        System.out.println(Ball.THIRDBALL);
+        System.out.println(Ball.FOURTHBALL);
+        System.out.println(Ball.FIFTHBALL);
     }
 
     public enum Ball {
