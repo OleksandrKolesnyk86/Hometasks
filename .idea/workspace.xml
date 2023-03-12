@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8dc1e29-082e-4bdb-9cf5-8170b9bb51c7" name="Changes" comment="HomeTasksLesson11">
-      <change beforePath="$PROJECT_DIR$/src/Lesson11/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson11/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson12/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson12/ComputerCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson12/DDR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson12/DDRType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson12/Processor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson12/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson12/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson12/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson12/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson12/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson12/Task5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson12/Task6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson12/Task7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson12/VideoRam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson11/Task5BallTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson11/Task5BallTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,26 +86,13 @@
       <recent name="Lesson3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task3">
-    <configuration name="Lesson11.Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson11.Task1" />
+  <component name="RunManager" selected="Application.Task7">
+    <configuration name="Lesson12.Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson12.Task3" />
       <module name="Hometasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lesson11.Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson11.Task2" />
-      <module name="Hometasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson11.*" />
+          <option name="PATTERN" value="Lesson12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,25 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson11.Task3" />
-      <module name="Hometasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson11.Task4" />
+      <option name="MAIN_CLASS_NAME" value="Lesson12.Task4" />
       <module name="Hometasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson11.*" />
+          <option name="PATTERN" value="Lesson12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +134,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task5BallTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson11.Task5BallTester" />
+    <configuration name="Task5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson12.Task5" />
       <module name="Hometasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson11.*" />
+          <option name="PATTERN" value="Lesson12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson12.Task6" />
+      <module name="Hometasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson12.Task7" />
+      <module name="Hometasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task3" />
-        <item itemvalue="Application.Task5BallTester" />
+        <item itemvalue="Application.Task7" />
+        <item itemvalue="Application.Task6" />
+        <item itemvalue="Application.Task5" />
         <item itemvalue="Application.Task4" />
-        <item itemvalue="Application.Lesson11.Task2" />
-        <item itemvalue="Application.Lesson11.Task1" />
+        <item itemvalue="Application.Lesson12.Task3" />
       </list>
     </recent_temporary>
   </component>
@@ -176,13 +191,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675013530400</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Hometasks from Lesson2">
-      <created>1675025365173</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1675025365173</updated>
     </task>
     <task id="LOCAL-00006" summary="Hometasks from Lesson2">
       <created>1675025372304</created>
@@ -520,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678381803913</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="HomeTasksLesson11">
+      <created>1678381924249</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1678381924249</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -13,7 +13,7 @@ public class Task5BallTester {
         FIRSTBALL(17.6, "football", 20, "leather"),
         SECONDBALL(18.6, "handball", 22, "rubber"),
         THIRDBALL(19.6, "basketball", 24, "leather"),
-        FOURTHBALL(20.6, "tenis", 26, "rubber"),
+        FOURTHBALL(20.6, "tennis", 26, "rubber"),
         FIFTHBALL(21.6, "water polo", 28, "leather");
         private double size;
         private String kindOfSport;
